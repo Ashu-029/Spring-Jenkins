@@ -16,7 +16,7 @@ public class SpringJenkinsApplication {
 	@PostConstruct
 	public void init() {
 		
-		log.info(" Application Has Started......... ");
+		log.info(" Application Has Started sucessully......... ");
 		
 	}
 	
@@ -24,7 +24,7 @@ public class SpringJenkinsApplication {
 		
 		log.info(" Application Has Started......... ");
 		SpringApplication.run(SpringJenkinsApplication.class, args);
-	
+	    
 	}
 
 }
