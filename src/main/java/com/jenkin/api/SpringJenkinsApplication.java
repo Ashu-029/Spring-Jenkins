@@ -23,7 +23,7 @@ public class SpringJenkinsApplication {
 	public static void main(String[] args) {
 		
 		log.info(" Application Has Started......... ");
-		SpringApplication.run(SpringJenkinsApplication.class, args);
+		SpringApplication.run(SpringJenkinsApplication.class, args)
 	    
 	}
 
